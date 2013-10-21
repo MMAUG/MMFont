@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_mm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mm3" />
+
+        <com.zwenexsys.mmfont.MM3
+            android:id="@+id/cv_mm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ygk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_mm3"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ygk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ygh" />
+
+        <com.zwenexsys.mmfont.YGK
+            android:id="@+id/cv_ygk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_mymm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_ygk"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/my_mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mymm" />
+
+        <com.zwenexsys.mmfont.MyMM
+            android:id="@+id/cv_mymm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_masterpiece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_mymm"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/masterpiece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masterpiece" />
+
+        <com.zwenexsys.mmfont.MSP
+            android:id="@+id/cv_masterpiece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_zg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_masterpiece"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/zg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zg" />
+
+        <com.zwenexsys.mmfont.MSP
+            android:id="@+id/cv_zg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_zg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textColor="@color/version"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
