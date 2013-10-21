@@ -1,29 +1,29 @@
-package com.zwenexsys.mmfont;
+package org.mmodroid.mmfont;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-public class YGK extends TextView {
-	public YGK(Context context) {
+public class MSP extends TextView {
+
+	public MSP(Context context) {
 		super(context);
 		setStyle(context);
 	}
 
-	public YGK(Context context, AttributeSet attrs) {
+	public MSP(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		setStyle(context);
 	}
 
-	public YGK(Context context, AttributeSet attrs, int defStyle) {
+	public MSP(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		setStyle(context);
 	}
 
 	private void setStyle(Context context) {
 		setTypeface(Typeface.createFromAsset(context.getAssets(),
-				"fonts/yunghkio.ttf"));
+				"fonts/masterpiece.ttf"));
 	}
-
 }

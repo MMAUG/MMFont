@@ -1,9 +1,10 @@
-package com.zwenexsys.mmfont_sample;
+package org.mmodroid.mmfont_sample;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.TextView;
+import org.mmodroid.mmfont_sample.R;
 
 public class MainActivity extends Activity {
 

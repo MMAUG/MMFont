@@ -1,4 +1,4 @@
-package com.zwenexsys.mmfont;
+package org.mmodroid.mmfont;
 
 import android.content.Context;
 import android.graphics.Typeface;
