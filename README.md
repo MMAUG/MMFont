@@ -3,7 +3,8 @@ MMFont
 
 Font embedded TextView for Android.
 
-![alt text](https://dl.dropboxusercontent.com/u/2709123/Screenshot_2013-10-09-10-57-56.png "Screenshot")
+![alt text](https://raw.github.com/MMODroid/MMFont/master/MMFont_sample/n7_mmfont.png "Nexus7")
+![alt text](https://raw.github.com/MMODroid/MMFont/master/MMFont_sample/one_mmfont.png "HTC")
 
 Goal
 ----

@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 	}
 
 	private void setText() {
-		version.setText("Devise name - "
+		version.setText("Device name - "
 				+ String.valueOf(android.os.Build.MANUFACTURER) + " "
 				+ String.valueOf(android.os.Build.MODEL)
 				+ "\nAPI version is - "
